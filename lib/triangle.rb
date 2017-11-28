@@ -13,6 +13,7 @@ class Triangle
       side1 + side2 <= side3 ||
       side1 + side3 <= side2 ||
       side2 + side3 <= side1
+      #does not pass test when using begin, raise & rescue.... why?
       #begin
       #  raise TriangleError
       #rescue TriangleError => error
